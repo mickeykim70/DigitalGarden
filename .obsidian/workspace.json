@@ -4,33 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "103576c04cee6810",
+        "id": "b97848c89cb4f7b2",
         "type": "tabs",
         "children": [
           {
-            "id": "8a40528310cdf9bf",
+            "id": "5f9f09d560ea7777",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
               "title": "새 탭"
-            }
-          }
-        ]
-      },
-      {
-        "id": "6f442380cb74b20b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8dc405fd774e3824",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
             }
           }
         ]
@@ -170,10 +154,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8a40528310cdf9bf",
+  "active": "5f9f09d560ea7777",
   "lastOpenFiles": [
-    "tsconfig.json",
+    "docs/hosting.md",
     "README.md",
+    "CODE_OF_CONDUCT.md",
+    "tsconfig.json",
     "quartz.layout.ts",
     "quartz.config.ts",
     "quartz/static/giscus/light.css",
@@ -183,7 +169,6 @@
     "quartz/plugins/transformers/roam.ts",
     "quartz/plugins/transformers/oxhugofm.ts",
     "quartz/plugins/transformers/ofm.ts",
-    "quartz/plugins/transformers/links.ts",
     "quartz/static/og-image.png",
     "quartz/static/icon.png",
     "docs/tags/plugin.md",
@@ -209,7 +194,6 @@
     "docs/plugins/CrawlLinks.md",
     "docs/plugins/ContentPage.md",
     "docs/plugins/ContentIndex.md",
-    "docs/plugins/ComponentResources.md",
     "docs/images/quartz-layout-tablet.png",
     "docs/images/quartz-layout-mobile.png",
     "docs/images/quartz-layout-desktop.png",

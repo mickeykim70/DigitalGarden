@@ -1,11 +1,9 @@
-FROM node:20-slim AS builder
+FROM klakegg/hugo:latest AS builder
 WORKDIR /usr/src/app
-COPY package.json .
-COPY package-lock.json* .
-RUN npm ci
-
-FROM node:20-slim
-WORKDIR /usr/src/app
-COPY --from=builder /usr/src/app/ /usr/src/app/
 COPY . .
-CMD ["npx", "quartz", "build", "--serve"]
+RUN hugo
+
+FROM nginx:alpine
+COPY --from=builder /usr/src/app/public /usr/share/nginx/html
+CMD ["nginx", "-g", "daemon off;"]
+
