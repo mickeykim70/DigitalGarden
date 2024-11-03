@@ -11,14 +11,10 @@
             "id": "4389450a490894ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "새 탭"
             }
           }
         ]
@@ -159,8 +155,7 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
   "active": "4389450a490894ac",
